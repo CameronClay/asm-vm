@@ -4,6 +4,7 @@ This is a two-pass assembler which converts assembly code into byte-code which c
 ## Tooling
 - C++
 - CMake
+- vcpkg
 - Visual Studio Code
 
 ## Note
