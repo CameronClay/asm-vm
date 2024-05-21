@@ -1,13 +1,6 @@
 # Assembler and Virtual machine
 This is a two-pass assembler which converts assembly code into byte-code which can then be run on the virtual machine. Based on Reduced Instruction Set Computing (RISC) architecture.
 
-## Tooling
-- C++ 20 (with modules)
-- CMake
-- Boot.Test
-- vcpkg
-- Visual Studio Code
-
 ## How to run
 ```
 Arugments: vm [-dump] [-log] [-mem_sz #KB] [-max_thrd #] [-inst_per_thrd #]
@@ -19,5 +12,15 @@ Arugments: vm [-dump] [-log] [-mem_sz #KB] [-max_thrd #] [-inst_per_thrd #]
 [-inst_per_thrd #] Specifies how many instructions are run per thread before initiating a context switch.
 ```
 
-## Note
+### Unit Testing
+- Unit testing done with Boost.Test.
+
+### Tooling
+- C++ 20 (with modules)
+- CMake
+- Boot.Test
+- vcpkg
+- Visual Studio Code
+
+### Note
 The code for this project is private but I am more than happy to show and explain the code.
