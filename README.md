@@ -2,8 +2,9 @@
 This is a two-pass assembler which converts assembly code into byte-code which can then be run on the virtual machine. Based on Reduced Instruction Set Computing (RISC) architecture.
 
 ## Tooling
-- C++
+- C++ 20 (with modules)
 - CMake
+- Boot.Test
 - vcpkg
 - Visual Studio Code
 
