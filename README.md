@@ -18,7 +18,7 @@ Arugments: vm [-dump] [-log] [-mem_sz #KB] [-max_thrd #] [-inst_per_thrd #]
 ### Tooling
 - C++ 20 (with modules)
 - CMake
-- Boot.Test
+- Boost.Test
 - vcpkg
 - Visual Studio Code
 
