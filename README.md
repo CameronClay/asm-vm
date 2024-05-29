@@ -16,7 +16,7 @@ Arugments: vm [-dump] [-log] [-mem_sz #KB] [-max_thrd #] [-inst_per_thrd #]
 - Unit testing done with Boost.Test.
 
 ### Tooling
-- C++ 20 (with modules)
+- C++ 20 (with **C++ 20 modules**)
 - CMake
 - Boost.Test
 - vcpkg
