@@ -33,7 +33,7 @@ Allowed options:
 - Boost.Program_options
 - vcpkg
 - Visual Studio Code
-- g++ compiler
+- MSVC compiler
 
 ### Note
 The code for this project is private but I am more than happy to show and explain the code.
